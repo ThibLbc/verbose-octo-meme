@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couvreur Charpentier</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <a id="anchor1"></a>  
+    <div class="menuCont">
+        <div class="topMenu">
+            <div class="topMenuSec1">
+                <img src="images/phone.svg" width="30px" alt="Appelez : ">
+                <h2>06 61 60 27 23</h2>
+            </div>
+            <div class="topMenuSect2"></div>
+        </div>
+        <div class="botMenu">
+            <img class="botMenuPhoneLogo" src="images/logo.svg" height="100%" alt="">
+            <button class="botMenuButton" onclick="showMenu()">☰ Menu</button>
+            <div class="botMenuLinks">
+                <a href="#anchor1" class="botMenuALogo"><img src="images/logo.svg" height="100%" alt=""></a>
+                <a href="page1.html"> Devis <br>Toiture</a>
+                <a href="page2.html"> Couvreur <br>Charpentier</a>
+                <a href="page3.html"> Devis <br> Changement <br>De Tuile</a>
+                <a href="page4.html"> Devis <br> Nettoyage <br>De toiture</a>
+                <a href="page5.html"> Devis <br> Réparation <br>De toiture</a>
+                <a href="page6.html"> Devis <br> Pose De <br> Gouttière </a>
+                <a href="page7.html"> Pose De <br> Bâche Et <br> Bâchage De <br> Toiture </a>
+                <a href="page8.html"> Devis <br> Fuite De <br> Toiture </a>
+                <a class="currLP" href="page9.html"> Entreprise <br>De Toiture</a>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="section1" style="background-image: url('images/bg-258.jpg');">
+            <div class="title">
+                <h1>artisan couvreur charpentier - gantier 31160</h1>
+            </div>
+            <form action="javascript:void(0);" method="get" class="formulaire">
+                <h2>Recevoir un devis :</h2>
+                <div class="inpCont">
+                    <p>Votre nom :</p>
+                    <input required class="formInput" type="text" name="" id="nameFI">
+                </div>
+                <div class="inpCont">
+                    <p>Votre code postal :</p>
+                    <input required class="formInput" type="text" name="" id="codeFI">
+                </div>
+                <div required class="inpCont">
+                    <p>Votre email :</p>
+                    <input required class="formInput" type="email" name="" id="emailFI">
+                </div>
+                <div class="inpCont">
+                    <p>Votre numéro de télephone :</p>
+                    <input required class="formInput" type="tel" name="" id="telFI">
+                </div>
+                <div class="inpCont">
+                    <p>Votre message :</p>
+                    <textarea required spellcheck="true" class="formInput" name="" id="messageFI" cols="30" rows="10"></textarea>
+                </div>
+                <div class="buttonCont">
+                    <button onclick="askDevis()">Demander un devis</button>
+                </div>
+            </form>
+        </div>
+        <a id="anchor2"></a>
+        <div class="section2">
+            <div class="sectionTitle">
+                <h1>Nos réalisations :</h1>
+            </div>
+            <div class="carousel">
+                <button class="carleft" onclick="carouLeft()"></button>
+
+                <div class="cImgs">
+                    <div class="imgBox" style="--bgi:url(../images/img1.jpg)"></div>
+                    <div class="imgBox" style="--bgi:url(../images/img2.jpg)"></div>
+                    <div class="imgBox imgFocus" style="--bgi:url(../images/img5.jpg)"></div>
+                    <div class="imgBox" style="--bgi:url(../images/img3.jpg)"></div>
+                    <div class="imgBox" style="--bgi:url(../images/img4.jpg)"></div>
+                </div>
+                
+                <button class="carright" onclick="carouRight()"></button>
+            </div>
+        </div>
+        <a id="anchor3"></a>
+        <div class="section3">
+            <div class="sectionTitle">
+                <h1>Besoin d'un artisan ?</h1>
+            </div>
+            <br>
+            <div class="sectionIntro">
+                <h3></h3>
+                <p></p>
+            </div>
+
+            <div class="subSection3">
+                <div class="sub3ColL">
+                    <div class="sub3Photo" style="background-image: url(images/2179311-devis-toiture-1.jpg);"></div>
+                </div>
+                <div class="sub3ColR">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="subSection3">
+                <div class="sub3ColL">
+                    <div class="sub3Photo" style="background-image: url(images/2179311-devis-toiture-2.jpg);">
+                    </div>
+                </div>
+                <div class="sub3ColR">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="subSection3">
+                <div class="sub3ColL">
+                    <div class="sub3Photo" style="background-image: url(images/2179311-devis-toiture-3.jpg);">
+                    </div>
+                </div>
+                <div class="sub3ColR">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+            <div class="subSection3">
+                <div class="sub3ColL">
+                    <div class="sub3Photo" style="background-image: url(images/2179311-devis-toiture-4.jpg);">
+                    </div>
+                </div>
+                <div class="sub3ColR">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+            <div class="subSection3">
+                <div class="sub3ColL">
+                    <div class="sub3Photo" style="background-image: url(images/2179311-devis-toiture-5.jpg);">
+                    </div>
+                </div>
+                <div class="sub3ColR">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+            <div class="subSection3">
+                <div class="sub3ColL">
+                    <div class="sub3Photo" style="background-image: url(images/2179311-devis-toiture-6.jpg);">
+                    </div>
+                </div>
+                <div class="sub3ColR">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+            <div class="subSection3">
+                <div class="sub3ColL">
+                    <div class="sub3Photo" style="background-image: url(images/2179311-devis-toiture-7.jpg);">
+                    </div>
+                </div>
+                <div class="sub3ColR">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+            <div class="subSection3">
+                <div class="sub3ColL">
+                    <div class="sub3Photo" style="background-image: url(images/2179311-devis-toiture-8.jpg);">
+                    </div>
+                </div>
+                <div class="sub3ColR">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+            <div class="subSection3">
+                <div class="sub3ColL">
+                    <div class="sub3Photo" style="background-image: url(images/2179311-devis-toiture-9.jpg);">
+                    </div>
+                </div>
+                <div class="sub3ColR">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+            <div class="subSection3">
+                <div class="sub3ColL">
+                    <div class="sub3Photo" style="background-image: url(images/2179311-devis-toiture-10.jpg);">
+                    </div>
+                </div>
+                <div class="sub3ColR">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="highlights">
+                <h3>Nos engagements</h3>
+                <hr>
+                <p>Devis et déplacement gratuits</p>
+                <hr>
+                <p>Sans engagement</p>
+                <hr>
+                <p>Artisan passionné</p>
+                <hr>
+                <p>Prix imbattable</p>
+                <hr>
+                <p>Travail de qualité</p>
+            </div>
+        </div>
+        <div class="sectionFooter">
+            <a href="#anchor1"><img src="images/logo.svg" height="100%" alt=""></a>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html></html>
